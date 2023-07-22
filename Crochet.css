@@ -3,52 +3,164 @@
   box-sizing: border-box;
 }
 
+.header {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 200%;
+  padding: 1px;
+  background-color: rgb(38,50,82, 0.8) ;
+  color: #ffffff;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
-  background: #f5f6f7;
+
+  background-image: url(https://img.freepik.com/free-photo/close-up-detail-cozy-clothing-texture_23-2149409157.jpg?w=996&t=st=1689372435~exp=1689373035~hmac=1555e64b074cfd008ad97ccba356b8d1d1758cf5b353d0e8f421cf9dc580112c);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
 }
 
-.header {
-  text-align: center;
-  padding: 10px;
-  background-color: #0a0a23;
-  color: #fff;
-  border-bottom: 4px solid black;
+main{
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 800px;
 }
+
+/* Description text*/.smaller{
+  font-size: 15px;
+}
+
+/*Fast scoll buttons*/
+.logg{
+  text-align: center;
+  margin: 0px;
+}
+.list{
+  font-size: 20px;
+}
+
+
+/*Links*/
+a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: black;
+}
+
+
 .chart{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+
 .names {
     padding:2px;
-    background-color: #333;
+    background-color: black;
     overflow-y: hidden;
     overflow-x: scroll;
     text-align:justify;
     white-space: nowrap;
-    max-height: 86px;
+    max-height: 120px;
+    border:4px solid #333;
 }
 .names img{
-    height: 70px;
+    height: 90px;
     object-fit: cover;
+}
+
+.turn {
+  padding:2px;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  text-align:justify;
+  white-space: nowrap;
+  max-height: 150px;
+  border:4px solid #333;
+}
+.turn img{
+  height: 120px;
+  object-fit: cover;
 }
 
 .scroll {
     margin:4px, 4px;
     padding:4px;
-    background-color: #333;
+    background-color: black;
     max-height: 300px;
     overflow-y: hidden;
     overflow-x: scroll;
     text-align:justify;
     white-space: nowrap;
+    border:4px solid #333;
+    
 }
 .scroll img{
-    max-width: 300px;
     height: 250px;
     object-fit: cover;
 }
 
+.recepies {
+  padding:2px;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  text-align:justify;
+  white-space: nowrap;
+  max-height: 140px;
+  border:4px solid #333;
+}
+.recepies img{
+  height: 90px;
+  object-fit: cover;
+}
+
+
+.group{
+  font-size: 20px ;
+  font-style:oblique;
+}
+
+.type{
+  font-size: 10px ;
+  font-style:oblique;
+  color: #fff;  
+  padding: 2px;
+}
+
+
+/*button*/
+#totop{
+position: fixed;
+bottom: 5px;
+left: 5px;
+font-size: 20px;
+background-color:lightblue;
+color: black;
+height: 40px;
+width: 175px;
+}
+.button__text{
+  position : relative ;
+  z-index : 3 ;
+  transition : all .3s ease ;
+  font-weight: 1000;
+  font-family: 'Courier New', Courier, monospace;
+}
