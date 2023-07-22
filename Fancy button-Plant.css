@@ -100,11 +100,12 @@
 /* hair */ .character::before{
   content : '' ;
   position : absolute ;
-  top : -12px ;
+  top : -10px ;
   left : 22px ;
   width : 12px ;
-  height : 12px ;
-  background : #000 ;
+  height : 10px ;
+  background : #009494 ;
+  box-shadow: inset 15px #000;
   clip-path : path('M10.23,3.32c-3.54,.63-5.72,2.51-7.02,4.23-.33-1.58-.34-3.54,.93-5.12,.52-.65,.41-1.59-.24-2.11C3.24-.19,2.29-.08,1.77,.57c-3.82,4.77-.31,11.11-.13,11.42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0-.01-.02,2.49,.04,2.52,0,.1-.14,1.54-4.82,6.59-5.71,.82-.14,1.37-.92,1.22-1.74s-.94-1.36-1.75-1.21Z') ;
 }
 /* eyes + beak */ .character__face{
@@ -341,10 +342,10 @@
 
 /* Owl */
 .button--hoo{
-  --main_color : #4993ff ;
-  --sub_color1 : #385082 ; /*Tree*/
-  --sub_color2 : #fff58f ;
-  --sub_color3 : black ;
+  --main_color : #31aaaa ;
+  /*Trees  --sub_color1 : #ffffff ;*/
+  --sub_color2 : #7c7c7c ;
+  --sub_color3 : rgb(0, 0, 0) ;
   --base_color : #FFF ;
   --border_radius1 : 50px 50px 50px 50px / 40px 40px 40px 40px ;
   --border_radius2 : 60px 60px 50px 50px / 40px 40px 40px 40px ;
@@ -364,7 +365,6 @@
   margin : auto ;
   width : 14px ;
   height : 10px ;
-  background : #385082 ;
   animation : face_hoo 1s ease infinite alternate ;
 }
 .button--hoo .charactor__face2::before,
@@ -376,7 +376,8 @@
   height : 10px ;
   box-sizing : border-box ;
   border-radius : 50% ;
-  border : solid 3px #385082 ;
+  /*Around eyes*/
+  border : solid 3px #0d4452 ;
   background : #000 ;
 }
 .button--hoo .charactor__face2::before{
@@ -394,7 +395,7 @@
   margin : 0 auto ;
   width : 0 ;
   height : 0 ;
-  border-top : solid 2px #385082 ;
+  /*border-top : solid 2px #ffffff ;*/
   border-left : solid 7px transparent ;
   border-right : solid 7px transparent ;
   border-bottom : solid 0 transparent ;
@@ -407,7 +408,7 @@
   top : -4px ;
   width : 0 ;
   height : 0 ;
-  border-top : solid 2px #385082 ;
+  /*border-top : solid 2px #ffffff ;*/
   border-left : solid 7px transparent ;
   border-right : solid 7px transparent ;
   border-bottom : solid 0 transparent ;
@@ -446,12 +447,12 @@
 .button--hoo:hover .wakeup .charactor__body{
   animation : body_hoo_wakeup .2s ease ;
   animation-fill-mode : forwards ;
-  border-top : solid 6px #385082 ;
+ /* border-top : solid 6px #ffffff ;*/
 }
 .button--hoo:hover .wakeup .charactor__body::before,
 .button--hoo:hover .wakeup .charactor__body::after{
   top : -12px ;
-  border-top : solid 5px #385082 ;
+ /* border-top : solid 5px #ffffff ;*/
 }
 @keyframes body_hoo{
   0%  {
