@@ -1,10 +1,5 @@
-head{
-  color:black;
-}
-
-
 body {
-  background-image: url(https://i.pinimg.com/564x/c9/95/4f/c9954f380a18697f6d7ea14a110e7a66.jpg);
+  background-image: url(https://i.pinimg.com/564x/63/5e/63/635e631940fe9acba8654a7516e259e1.jpg);
   min-height: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,57 +9,89 @@ body {
 
   font-family: sans-serif;
   padding: 20px;
-  color:black;
+  display: flex;
+  display: block;
 }
-.Hanne{
-
-}
-
-.tiktok{
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-h1 {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 0px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-.established {
-  font-style: italic;
-}
-
-h1, h2 {
-  font-family: Impact, serif;
-  text-align: center;
-}
-
-
-.menu {
-  width: 80%;
-  background:linear-gradient(to bottom, rgb(100, 149, 255), rgba(77, 62, 117, 0));
+main{
+  background:linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0));
   background-position:center;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   max-width:700px;
 }
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: 200;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,0 0 92px #fff;
+  font-family: Impact, serif;
+  text-align: center;
+}
+.established {
+  font-style: italic;
+  text-align: center;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,0 0 92px #fff;
+}
+
+
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  text-align:center;
+  color: white;
+  max-width: 50%;
+}
+
+.category{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;  
+}
+
+.name{
+  font-size: 25px;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;  
+}
+th {
+padding:2px 50px 0px 50px;
+font-size: 17px;
+text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;
+font-weight: 600;
+}
+td {
+padding:0px 0px 5px 0px;
+font-size: 100%;
+text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 50px #000,0 0 60px #000;
+}
+tr{
+  text-align: center;
+  font-weight:100;
+}
+
 
 hr {
   height: 0.5px;
   background-color: black;
   border-color: black;
+}
+
+/*Links*/
+a {
+  color: #fff;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 50px #000,0 0 60px #000;
+}
+a:visited {
+  color: #fff;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 50px #000,0 0 60px #000;
+}
+a:hover {
+  color: rgb(220, 220, 220);
+}
+a:active {
+  color: rgb(220, 220, 220);
 }
