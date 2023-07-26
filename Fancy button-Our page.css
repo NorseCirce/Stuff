@@ -35,8 +35,8 @@
 .button{
   position : relative ;
   display : flex ;
-  width : 280px ;
-  height : 80px ;
+  width : 200px ;
+  height : 50px ;
   box-sizing : border-box ;
   text-decoration : none ;
   border : solid 3px #000 ;
@@ -315,18 +315,17 @@
 
 
 /*Inn HTML Owl
-
-<div><!--To top button-->
+<div>
 <a href="#" class="button button--hoo" onclick="topFunction()" id="totop" title="Go to top">
-      <div class="button__wrapper">
-          <span class="button__text">To top</span>
+    <div class="button__wrapper">
+            <span class="button__text">To top</span>
       </div>
       <div class="characterBox">
-          <div class="character wakeup">
-              <div class="character__face"></div>
-              <div class="charactor__face2"></div>
-              <div class="charactor__body"></div>
-          </div>
+            <div class="character wakeup">
+            <div class="character__face"></div>
+            <div class="charactor__face2"></div>
+            <div class="charactor__body"></div>
+        </div>
           <div class="character wakeup">
               <div class="character__face"></div>
               <div class="charactor__face2"></div>
@@ -338,10 +337,7 @@
               <div class="charactor__body"></div>
           </div>
       </div>
-</a>
-</div>
-
-                                                                                                                  */
+*/
 
 /* Owl */
 .button--hoo{
@@ -558,7 +554,7 @@
 /* Penguin */
 .button--pen{
   --main_color : #4d4d4d ;
-  --sub_color1 : #FFF ;
+  --sub_color1 :  ;
   --sub_color2 : #e9b800 ;
   --base_color : #e9b800 ;
   --border_radius1 : 60px 60px 40px 40px / 48px 48px 30px 30px ;
