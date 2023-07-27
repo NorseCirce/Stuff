@@ -33,19 +33,19 @@ body {
 
 main{
   width: 90%;
-  background-color: rgba(38, 50, 82, 0.5);
+  background-color: rgba(38, 50, 82, 0.65);
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   max-width: 800px;
   font-weight: 800;
   box-shadow: 0 0 8px 8px rgba(77, 158, 190, 0.8) inset , 0 0 8px 8px rgba(77, 158, 190, 0.8);
+  margin-bottom: 80px;
+}
+p{
+  margin: 5px;
 }
 
-/* Description text*/.smaller{
-  font-size: 15px;
-  font-weight: 500;
-}
 
 /*Fast scroll header*/
 .head{
@@ -80,19 +80,57 @@ main{
 }
 .fweb{
   font-size: 19px;
-  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;
   font-weight: 500;
   padding:0px 0 2px 0;  
 }
 .web{
-  font-size: 19px;
-  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;
-  font-weight: 500;
-  padding:20px 0 2px 0;
-}
-.links{
   font-size: 14px;
-  padding: 2px;
+  font-weight: 500;
+  padding:0px 0 2px 0; 
+}
+
+
+
+
+code{
+  font-size:18px;
+  font-weight: 300;
+}
+.group{
+  color: #fff;
+  text-align: center;
+}
+.input{
+font-weight: 600;
+color: aqua;
+}
+.link{
+  font-size: 90%;
+}
+.space{
+  margin-bottom: 30px;
+}
+.info{
+  font-weight: 300;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*Lower Headers*/
+.top{
+  font-size: 30px;
+  font-weight: 700;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.mid{
+  font-size: 25px;
+  font-weight: 600;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.low{
+  font-size: 22px;
+  font-weight: 500;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
 }
 
 /*Lines*/
@@ -103,14 +141,16 @@ hr{
 box-shadow: 0 0 8px 8px rgba(77, 158, 190, 0.8) inset , 0 0 8px 8px rgba(77, 158, 190, 0.8);
 opacity: 50%;
 }
-
+.short{
+  max-width: 50%;
+}
 
 /*Links*/
 a {
-  color: white;
+  color: #fff;
 }
 a:visited {
-  color: white;
+  text-decoration: none;
 }
 a:hover {
   color: white;
@@ -119,15 +159,14 @@ a:active {
   color: white;
 }
 
-
 /*button*/
 #totop{
 position: fixed;
 bottom: 20px;
 left: 5px;
 font-size: 20px;
-background-color:rgba(0, 0, 0, 0.5);
-color: rgb(126, 189, 212); 
+background-color:rgba(44, 124, 161, 0.8);
+color: rgb(255, 255, 255); 
 height: 50px;
 width: 211px;
 text-align: center;
