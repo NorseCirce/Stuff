@@ -1,0 +1,142 @@
+
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(https://i.pinimg.com/564x/51/98/69/5198696d756d74f37b878aa048ccda34.jpg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+
+.header {
+  text-align: center;
+  font-family:OCR A Std, monospace;
+  font-size: 100%;
+  font-size: 60px;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;  
+  color: #ffffff;
+  margin: 0;
+}
+.css2{/*Moving binary code*/
+  color:rgb(38,50,82, 0.8);
+  font-weight: 700;
+}
+
+
+main{
+  width: 90%;
+  background-color: rgba(38, 50, 82, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 800px;
+  font-weight: 800;
+  box-shadow: 0 0 8px 8px rgba(77, 158, 190, 0.8) inset , 0 0 8px 8px rgba(77, 158, 190, 0.8);
+}
+
+/* Description text*/.smaller{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/*Fast scroll header*/
+.head{
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+/*Fast scoll buttons*/
+.logg{
+  margin: 0px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list{
+  font-size: 20px;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  text-align:center;
+  color: white;
+  max-width: 50%;
+}
+.category{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;  
+}
+.fweb{
+  font-size: 19px;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;
+  font-weight: 500;
+  padding:0px 0 2px 0;  
+}
+.web{
+  font-size: 19px;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 42px #000, 0 0 82px #000,0 0 92px #000;
+  font-weight: 500;
+  padding:20px 0 2px 0;
+}
+.links{
+  font-size: 14px;
+  padding: 2px;
+}
+
+/*Lines*/
+hr{
+  width: 90%;
+}
+.glow{
+box-shadow: 0 0 8px 8px rgba(77, 158, 190, 0.8) inset , 0 0 8px 8px rgba(77, 158, 190, 0.8);
+opacity: 50%;
+}
+
+
+/*Links*/
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
+
+
+/*button*/
+#totop{
+position: fixed;
+bottom: 20px;
+left: 5px;
+font-size: 20px;
+background-color:rgba(0, 0, 0, 0.5);
+color: rgb(126, 189, 212); 
+height: 50px;
+width: 211px;
+text-align: center;
+font-weight: 800;
+}
+.button__text{
+  position : relative ;
+  z-index : 3 ;
+  transition : all .3s ease ;
+  font-weight: 1000;
+  font-family: 'Courier New', Courier, monospace;
+}
